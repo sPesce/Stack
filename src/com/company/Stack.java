@@ -23,6 +23,10 @@ public class Stack {
     public int getSize(){
         return size;
     }
+
+    public boolean isEmpty(){
+        return size == 0;
+    }
     //add int to top of stack
     public void push(int data){
         if(top == null)
